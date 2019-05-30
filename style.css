@@ -201,7 +201,7 @@ p {
   }
 
   .play-again {
-    left: 190px;
+    left: 170px;
   }
 
   .score-title {
@@ -220,7 +220,7 @@ p {
 
   .answers {
     margin: auto;
-    width: 450px;
+    width: 400px;
     font-size: 25px;
     justify-content: space-around;
     color: #d6fc04;
@@ -229,9 +229,9 @@ p {
   .answer {
     border-radius: 100px;
     text-align: center;
-    width: 65px;
+    width: 50px;
     margin: auto;
-    padding: 10px 20px;
+    padding: 5px 10px;
     box-shadow: 0 9px #04fc2a;
     outline: none;
   }
@@ -263,7 +263,7 @@ p {
       opacity: 1;
       -webkit-transform: translateX(0);
       transform: translateY(0);
-      font-size: 60px;
+      font-size: 45px;
     }
   }
 
@@ -277,7 +277,7 @@ p {
       opacity: 1;
       -webkit-transform: translateY(0);
       transform: translateY(0);
-      font-size: 60px;
+      font-size: 45px;
     }
   }
 }
