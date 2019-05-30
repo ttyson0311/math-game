@@ -196,12 +196,12 @@ p {
   }
 
   .timer-title {
-    left: 110px;
+    left: 90px;
     display: flex;
   }
 
   .play-again {
-    left: 210px;
+    left: 190px;
   }
 
   .score-title {
@@ -209,9 +209,8 @@ p {
   }
 
   .equation {
-    margin-left: 150px;
+    margin: auto;
     display: flex;
-    margin-bottom: 20px;
     font-size: 60px;
   }
 
@@ -220,21 +219,24 @@ p {
   }
 
   .answers {
+    margin: auto;
     width: 450px;
     font-size: 25px;
     justify-content: space-around;
     color: #d6fc04;
-    right: 2px;
   }
 
   .answer {
     border-radius: 100px;
     text-align: center;
-    width: 80px;
+    width: 65px;
     margin: auto;
-    padding: 15px 25px;
+    padding: 10px 20px;
     box-shadow: 0 9px #04fc2a;
     outline: none;
+  }
+  .endingScore {
+    font-size: 12px;
   }
 
   .time-up {
@@ -261,7 +263,7 @@ p {
       opacity: 1;
       -webkit-transform: translateX(0);
       transform: translateY(0);
-      font-size: 80px;
+      font-size: 60px;
     }
   }
 
@@ -275,7 +277,7 @@ p {
       opacity: 1;
       -webkit-transform: translateY(0);
       transform: translateY(0);
-      font-size: 80px;
+      font-size: 60px;
     }
   }
 }
